@@ -1,1 +1,1 @@
-web: voila --no-browser --port=$PORT --Voila.ip=0.0.0.0 RecommendationEngine3_3.ipynb
+web: gunicorn app:app
